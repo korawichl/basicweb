@@ -1,0 +1,182 @@
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 900px;
+    margin: width 0 auto;
+}
+
+nav{
+    padding: 1rem;
+    background-color: #333;
+    
+}
+
+.navcon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 30px;
+    color: aliceblue;
+    text-decoration: none;
+    
+
+}
+
+.menu  {
+    display: flex;
+    list-style: circle;
+    align-items: center; 
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero{
+    background-color:  #9b8787;;
+}
+
+.hero-con{
+    display:flex;
+    
+}
+
+.hero-img{
+    width: 100%;    
+    padding: 2rem;
+}
+
+.hero-info h3{
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.hero-info .font{
+    margin: 1rem 0;
+    font-family: "'Mitr', sans-serif";
+}
+
+.hero-info .hero-btn {
+    display: inline-block;
+    background-color: rgb(186, 102, 102);
+    color: white;
+    padding: 15px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 1rem;
+}
+
+.hero-info{
+    width: 150%;
+    padding: 2rem;
+}
+
+.blog-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+    margin: 2rem   ;
+    
+}
+
+.blog-item img {
+    width: 100%;
+}
+
+.blog-title h3 {
+    margin: 1rem;
+}
+
+.blog-title h4 {
+    margin: 2rem 0;
+}
+
+.blog-item p {
+    margin-top: 1rem 0;
+    font-family:Sans-serif;
+}
+
+.blog-item p {
+    margin: 1rem 0;
+
+}
+
+.blog-item a {
+    display: inline-block;
+    color: #fff;
+    background-color: orange;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.blog-item .foot{
+    margin: 4.5rem;
+}
+
+.blog-item .swim{
+    margin: 1rem;
+}
+
+.footer-top{
+    margin-top: 2rem;
+    padding: 3rem;
+    background-color: #333;
+    color: white;
+}
+
+.footer-top-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.footer-top-item-con{
+    display: flex;
+    margin: 1rem 1rem;
+    
+
+}
+
+.footer-top-item-con .date{
+    background-color: wheat;
+    color: #333;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px ;
+    
+}
+
+.footer-top-item .About {
+    margin-bottom: 1rem;
+}
+
+.footer-top-item .stay{
+    margin-bottom: 1rem;
+    
+}
+
+.footer-top-item:nth-child(3) a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.footer-botton{
+    background-color: #fff;
+    font-size: small;
+    padding: 1rem;
+    text-align: center;
+}
